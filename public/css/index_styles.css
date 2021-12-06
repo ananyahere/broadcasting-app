@@ -1,0 +1,34 @@
+body{
+  font-family: 'Nunito';
+}
+
+h2{
+  font-size: 64px;
+  padding: 10px 20px;
+  color: #575ed8;
+  text-align: center;
+}
+
+#auth_buttons {
+  margin-left: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#admin_buttons{
+  margin: 50px;
+}
+
+#user_buttons{
+  margin: 50px;
+}
+
+#auth_buttons button{
+  background: #575ed8;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 12px;
+  border-radius: 5px 5px 5px 5px;
+  border: 0;
+  cursor: pointer;
+}

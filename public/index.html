@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
+    <title>Index</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"
+      integrity="sha512-WL6WGKMPBiM9PnHRYIn5YEtq0Z8XP4fkVb4qy7PP4vhmYQErJ/dySyXuFIMDf1eEYCXCrQrMJfkNwKc9gsjTjA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="./css/index_styles.css" />
+  </head>
+  <body>
+    <h2>Welcome to my Chat App!</h2>
+    <div id="auth_buttons">
+      <div id="admin_buttons">
+        <a href="/login-admin"><button>login-admin</button></a>
+        <a href="/register-admin"><button>register-admin</button></a>
+      </div>
+      <div id="user_buttons">
+        <a href="/register-user"><button>register-user</button></a>
+        <a href="/login-user"><button>login-user</button></a>
+      </div>
+    </div>
+    <script src="./js/chat.js"></script>
+  </body>
+</html>
