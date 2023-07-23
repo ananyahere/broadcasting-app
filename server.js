@@ -57,8 +57,8 @@ app.use(passport.session())
 app.use(adminRoutes)
 app.use(userRoutes)
 
-var server = app.listen(6969, () => {
-  console.log('Listening at port 6969')
+var server = app.listen(8080, () => {
+  console.log('Listening at port 8080')
 })
 
 // Socket setup

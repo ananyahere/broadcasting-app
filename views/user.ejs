@@ -17,7 +17,7 @@
     <div class="text">
       <h2>Welcome, <%= user.username %></h2>
     </div>
-    <div class="image">
+    <!-- <div class="image">
       <div class="display_profile">
         <img src=" <%= imageUrl %>" alt="profile_picture">
       </div>
@@ -27,8 +27,7 @@
           <button type="submit" class="upload_profile_button">Upload Picture</button>
         </form>
       </div>
-    </div>
-
+    </div> -->
   </div>
   </header>
   <div id="mario-chat">
@@ -39,10 +38,6 @@
           <% }) %>
       </div>
     </div>
-    <input type="text" id="handle" placeholder="Handle">
-    <input type="text" id="message" placeholder="Subject Of Meet" disabled>
-    <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" disabled>
-    <button id="send">Send</button>
   </div>
   <script src="./js/chat.js"></script>
 </body>
